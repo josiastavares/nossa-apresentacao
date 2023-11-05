@@ -1,0 +1,41 @@
+.formacao{
+    width: 270px;
+    height: 231px;
+    background-color: #1F171730;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #00000040;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+.formacao:hover{
+    background-color: #1F1717;
+    transition: 0.5s;
+}
+
+.formacao i{
+    font-size: 40px;
+    color: #FCF5ED;
+}
+
+.formacao p{
+    font-family: 'Montserrat', sans-serif;
+    color: #1F1717;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.formacao:hover p{
+    color: #FCF5ED;
+}
+
+.formacao .nome{
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 10px;
+}

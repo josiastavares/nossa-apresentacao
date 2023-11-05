@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 366px;
+    background-color: #CE5A67;
+    border-radius: 5px 30px;
+}
+
+.sobre img{
+    width: 80px;
+    height: 80px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sobre p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.sobre .nome{
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.sobre .subtitulo{
+    font-weight: 600;
+    font-size: 20px;
+    color: #1F1717;
+    margin-top: 10px;
+}
+
+.sobre button{
+    font-family: 'Poppins', sans-serif;
+    width: 145px;
+    height: 38px;
+    background-color: #1F1717;
+    color: #FCF5ED;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.sobre button:hover{
+    background-color: #FCF5ED;
+    color: #1F1717;
+    transition: 0.3s;
+}

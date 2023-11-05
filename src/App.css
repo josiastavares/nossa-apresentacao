@@ -1,0 +1,40 @@
+.App{
+    background-image: linear-gradient(160deg, #F4BF96, #FCF5ED);
+}
+
+.secao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 80px;
+    gap: 15px;
+}
+
+.secao-escura{
+    background-color: #CE5A67;
+}
+
+.secao-hobbies{
+    width: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-right: 1px solid #FCF5ED;
+    padding-right: 10px;
+}
+
+.secao-hobbies .nome{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.hobbie{
+    width: 45%;
+}

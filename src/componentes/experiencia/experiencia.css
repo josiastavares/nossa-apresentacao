@@ -1,0 +1,25 @@
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    background-color: #1F1717;
+    background-image: linear-gradient(100deg, #FCF5ED30, #FCF5ED05);
+    padding: 30px;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.experiencia .nome{
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.experiencia p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FCF5ED;
+    text-align: justify;
+}
