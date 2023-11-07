@@ -5,7 +5,7 @@ const Menu = () => {
         <header className='menu'>
             <ul>
                 <li><a href='#sobrenos'>SOBRE NÓS</a></li>
-                <li><a href='#formacao'>FORMAÇÃO</a></li>
+                <li><a href='./formacao.html'>FORMAÇÃO</a></li>
                 <li><a href='#experiencia'>EXPERIÊNCIA</a></li>
                 <li><a href='#hobbies'>HOBBIES</a></li>
             </ul>
