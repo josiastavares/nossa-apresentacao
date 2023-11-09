@@ -1,13 +1,14 @@
+import { Link } from 'react-router-dom'
 import './menu.css'
 
 const Menu = () => {
     return (
         <header className='menu'>
             <ul>
-                <li><a href='#sobrenos'>SOBRE NÓS</a></li>
-                <li><a href='./formacao.html'>FORMAÇÃO</a></li>
-                <li><a href='#experiencia'>EXPERIÊNCIA</a></li>
-                <li><a href='#hobbies'>HOBBIES</a></li>
+                <li><Link to='/'>SOBRE NÓS</Link></li>
+                <li><Link to='/formacao'>FORMAÇÃO</Link></li>
+                <li><Link to='/experiencia'>EXPERIÊNCIA</Link></li>
+                <li><Link to='/hobbies'>HOBBIES</Link></li>
             </ul>
         </header>
     )
