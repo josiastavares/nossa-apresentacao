@@ -16,21 +16,29 @@ const Sobre = (props) => {
     )
 }
 
+
 function pegaId(botao) {
     const cep = botao.target.id
     const url = `https://viacep.com.br/ws/${cep}/json/`
 
     fetch(url).then((response) => {
         response.json().then((data) => {
-            console.log(data)
-            salvandoCep(data)
+            var endereco = data;
+            console.log(endereco)
+            var popup = document.getElementById('popup')
+            var popuptxt = document.getElementById('popuptxt')
+            popup.style.display = 'block';
+            popuptxt.innerHTML = `
+    <p>Bairro: ${endereco.bairro}</p>
+    <p>CEP: ${endereco.cep}</p>
+    <p>Complemento: ${endereco.complemento}</p>
+    <p>Localidade: ${endereco.localidade}</p>
+    <p>Logradouro: ${endereco.logradouro}</p>
+    <p>UF:${endereco.uf}</p>
+    `
         })
     });
-}
 
-function salvandoCep(dados) {
-    var logradouro = dados.logradouro
-    alert(logradouro)
 }
 
 export default Sobre
