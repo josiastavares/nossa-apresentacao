@@ -1,3 +1,4 @@
+<h2>Descrição</h2>
 Este é um projeto acadêmico concebido com o propósito de aprimorar e exibir competências desenvolvidas em React e Node.<br>
 O projeto abrange uma apresentação pessoal do nosso grupo, contendo informações cruciais:
 <dl>
