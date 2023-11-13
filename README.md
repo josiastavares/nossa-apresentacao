@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+Este é um projeto acadêmico concebido com o propósito de aprimorar e exibir competências desenvolvidas em React e Node.<br>
+O projeto abrange uma apresentação pessoal do nosso grupo, contendo informações cruciais:
+<dl>
+  <dt>Sobre Nós:</dt>
+  <dd>Detalhes sobre cada membro do grupo.</dd>
+  
+  <dt>Formação:</dt>
+  <dd>As formações acadêmicas dos integrantes.</dd>
+  
+  <dt>Experiência:</dt>
+  <dd>Breve descrição das experiências profissionais relevantes de cada membro.</dd>
+  
+  <dt>Hobbies:</dt>
+  <dd>Interesses pessoais e atividades de lazer dos membros.</dd>
+  
+  <dt>Informações de Endereço com API (ViaCep):</dt>
+  <dd>Utilização da API ViaCep para exibir informações de endereço dos integrantes.</dd>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Durante o desenvolvimento, priorizamos a eficiência ao reutilizar o máximo possível de componentes. Cada bloco de informação é representado por um único componente, permitindo a flexibilidade das informações variáveis.
 
-## Available Scripts
+Adicionalmente, organizamos as informações em páginas separadas para aprimorar a experiência do usuário. O React Router foi empregado para facilitar a navegação entre as diferentes seções do projeto.
 
-In the project directory, you can run:
+Quanto à integração com a API ViaCep, implementamos a busca dinâmica ao usuário clicar no botão correspondente. Ao clicar, um pop-up exibe as informações de endereço do respectivo membro.
 
-### `npm start`
+Para visualizar o layout e acessar a implementação, você pode verificar nos seguintes links:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Layout no Figma: https://www.figma.com/file/5gLsFZ2hHCQJXah2GMi7Bj/Nossa-apresenta%C3%A7%C3%A3o?type=design&node-id=0%3A1&mode=design&t=vMItPKLjS18uiqx6-1
+<br>
+Deploy no Vercel: https://nosso-perfil.vercel.app/
