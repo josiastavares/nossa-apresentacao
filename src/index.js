@@ -49,7 +49,7 @@ const router = createBrowserRouter([
           <Titulo titulo="EXPERIÊNCIA" />
           <section className='secao' id='experiencia'>
             <Experiencia nome="Augusto" resumo="Sou um Full Stack Designer, um profissional versátil e capaz de atuar em todas as etapas da criação de uma aplicação web ou móvel. Para isso, estou sempre me atualizando e aprendendo novas ferramentas e tecnologias. Tenho experiência em UX e UI design, pesquisa de usuários, wireframes, protótipos, design de interface e de interação, desenvolvimento front-end, marketing digital, entre outras competências. Meu portfólio mostra a diversidade e a qualidade dos meus projetos. Sou um profissional “coringa”, pronto para ajudar onde for preciso." />
-            <Experiencia nome="Beatriz" resumo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac faucibus augue, ut tempor dolor. Morbi non massa non justo vehicula vulputate ut id nisl. Sed rutrum sapien at finibus malesuada. Integer lacinia feugiat nibh, id sagittis orci ultricies sit amet. Proin euismod, odio id consectetur eleifend, nibh urna convallis ipsum, sit amet fringilla ante sem et nunc." />
+            <Experiencia nome="Beatriz" resumo="Sou desenvolvedora full stack em andamento, entusiasta apaixonada por tecnologia, cursando Sistemas para Internet na FIAP. Estou constantemente em busca do aprendizado e evolução, dedicada a aprimorar minhas habilidades. Atualmente, possuo conhecimento em UX/UI, HTML, CSS, Bootstrap, JavaScript, Node.js, java, entre outros. Adicionalmente, possuo diversos cursos complementares na área, para ampliar meu conhecimento." />
             <Experiencia nome="Cibele" resumo="Possuo Nível Técnico em Comunicação Visual pela Etec Albert Einsten, cursando Superior em Tecnologia de Sistemas para Internet na FIAP, e estagiando como Designer na Dynamind. Estou aprofundando meus conhecimentos na área de ux/ui design, que me desperta muito interesse." />
             <Experiencia nome="Eduardo" resumo="Sou um desenvolvedor front end que gosta de estar em constante evolução e não desisto fácil.
     Estou cursando Sistemas para Internet na Faculdade FIAP. Além de ter diversos cursos na área, como HTML, CSS, BootsTrap, JS, React, Node e Wordpress" />
@@ -70,10 +70,10 @@ const router = createBrowserRouter([
             </div>
             <div className='secao-hobbies'>
               <p className='nome'>Beatriz</p>
-              <Hobbies className='hobbie' hobbie="hobbie 1" />
-              <Hobbies className='hobbie' hobbie="hobbie 1" />
-              <Hobbies className='hobbie' hobbie="hobbie 1" />
-              <Hobbies className='hobbie' hobbie="hobbie 1" />
+              <Hobbies className='hobbie' hobbie="Estudar" />
+              <Hobbies className='hobbie' hobbie="Praticar Esportes" />
+              <Hobbies className='hobbie' hobbie="Artesanato e Crochê" />
+              <Hobbies className='hobbie' hobbie="Cozinhar" />
             </div>
             <div className='secao-hobbies'>
               <p className='nome'>Cibele</p>
