@@ -44,3 +44,24 @@ body{
 .hobbie{
     width: 45%;
 }
+
+@media (max-width: 768px) and (max-width: 1023px) {
+    .secao{
+        justify-content: center;
+        padding: 10px 20px;
+    }
+    .secao-escura{
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .secao-hobbies{
+        width: 100%;
+        border-right: none;
+    }
+    .secao-escura{
+        height: 100%;
+    }
+}
+

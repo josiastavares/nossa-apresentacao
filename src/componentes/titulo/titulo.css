@@ -27,3 +27,13 @@
     position: absolute;
     z-index: 0;
 }
+
+@media (max-width: 767px) {
+    .titulo h2{
+        font-size: 35px;
+    }
+    
+    .titulo p{
+        font-size: 60px;
+    }
+}

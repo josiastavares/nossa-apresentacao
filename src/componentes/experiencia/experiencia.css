@@ -23,3 +23,18 @@
     color: #FCF5ED;
     text-align: justify;
 }
+
+@media (max-width: 767px) {
+    .experiencia{
+        width: 100%;
+    }
+
+    .experiencia .nome{
+        font-size: 20px;
+   }
+
+   .experiencia p{
+    font-size: 12px;
+}
+}
+

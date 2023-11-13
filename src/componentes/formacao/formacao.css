@@ -39,3 +39,24 @@
     color: #fff;
     margin-top: 10px;
 }
+
+@media (max-width: 767px) {
+    .formacao{
+        width: 180px;
+        height: 130px;
+        gap: 5px;
+    }
+
+    .formacao i{
+        font-size: 30px;
+    }
+    
+    .formacao p{
+        font-size: 12px;
+    }
+    
+    .formacao .nome{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+}
