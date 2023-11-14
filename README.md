@@ -1,4 +1,4 @@
-## Descrição
+## Descrição do Projeto
 
 Este é um projeto acadêmico concebido com o propósito de aprimorar e exibir competências desenvolvidas em React e Node.
 
@@ -14,7 +14,7 @@ O projeto abrange uma apresentação pessoal do nosso grupo, contendo informaç�
 
 - `Informações de Endereço com API (ViaCep):` Utilização da API ViaCep para exibir informações de endereço dos integrantes.
 
-## Processo
+## Desenvolvimento do Projeto
 
 Durante o desenvolvimento, priorizamos a eficiência ao reutilizar o máximo possível de componentes. Cada bloco de informação é representado por um único componente, permitindo a flexibilidade das informações variáveis.
 
