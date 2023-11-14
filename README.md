@@ -4,13 +4,13 @@ Este é um projeto acadêmico concebido com o propósito de aprimorar e exibir c
 
 O projeto abrange uma apresentação pessoal do nosso grupo, contendo informações cruciais:
 
-- `Sobre Nós:` Detalhes sobre cada membro do grupo.
+- `Sobre Nós:` Detalhes sobre cada membro do grupo;
 
-- `Formação:` As formações acadêmicas dos integrantes.
+- `Formação:` As formações acadêmicas dos integrantes;
   
-- `Experiência:` Breve descrição das experiências profissionais relevantes de cada membro.
+- `Experiência:` Breve descrição das experiências profissionais relevantes de cada membro;
   
-- `Hobbies:` Interesses pessoais e atividades de lazer dos membros.
+- `Hobbies:` Interesses pessoais e atividades de lazer dos membros;
 
 - `Informações de Endereço com API (ViaCep):` Utilização da API ViaCep para exibir informações de endereço dos integrantes.
 
