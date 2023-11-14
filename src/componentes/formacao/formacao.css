@@ -42,21 +42,21 @@
 
 @media (max-width: 767px) {
     .formacao{
-        width: 180px;
+        width: 45%;
         height: 130px;
         gap: 5px;
     }
 
     .formacao i{
-        font-size: 30px;
+        font-size: 20px;
     }
     
     .formacao p{
-        font-size: 12px;
+        font-size: 10px;
     }
     
     .formacao .nome{
-        font-size: 20px;
+        font-size: 15px;
         margin-top: 5px;
     }
 }

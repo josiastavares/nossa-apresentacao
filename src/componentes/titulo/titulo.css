@@ -28,12 +28,22 @@
     z-index: 0;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 390px) and (max-width: 767px) {
     .titulo h2{
         font-size: 35px;
     }
     
     .titulo p{
         font-size: 60px;
+    }
+}
+
+@media (max-width: 389px){
+    .titulo h2{
+        font-size: 26px;
+    }
+    
+    .titulo p{
+        font-size: 45px;
     }
 }
